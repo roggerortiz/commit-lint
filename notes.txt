@@ -1,0 +1,12 @@
+01. List npm config
+  - npm config ls -l
+
+02. Config npm init
+  - npm config set init-author-name "Rogger Ortiz" -g
+  - npm config set init-author-email "rogger.ortiz.br@gmail.com" -g
+  - npm config set init-author-url "https://github.com/roggerortiz" -g
+  - npm config set init-version "0.0.1" -g
+  - npm config set init-license "MIT" -g
+
+03. Config commit-msg hook
+  - npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"

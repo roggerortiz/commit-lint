@@ -1,0 +1,18 @@
+{
+  "name": "commit-lint",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Rogger Ortiz <rogger.ortiz.br@gmail.com> (https://github.com/roggerortiz)",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "husky": "^8.0.3"
+  }
+}
