@@ -8,5 +8,11 @@
   - npm config set init-version "0.0.1" -g
   - npm config set init-license "MIT" -g
 
-03. Config commit-msg hook
+03. Install commitlint
+  - npm i -D @commitlint/cli @commitlint/config-conventional
+
+04. Config commit-msg hook
   - npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"
+
+05. Install conventional changelog
+  - npm i -g conventional-changelog-cli
