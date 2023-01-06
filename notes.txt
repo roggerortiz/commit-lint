@@ -16,3 +16,11 @@
 
 05. Install conventional changelog
   - npm i -g conventional-changelog-cli
+
+06. Generate file CHANGELOG.md
+  - conventional-changelog -i CHANGELOG.md -s -r 0
+
+07. Manage npm version
+  - npm version patch: 0.0.0 => 0.0.1
+  - npm version minor: 0.0.0 => 0.1.0
+  - npm version major: 0.0.0 => 1.0.0
